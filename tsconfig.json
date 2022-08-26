@@ -16,10 +16,11 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "@atoms": ["src/components/atoms/"],
-      "@layouts": ["src/components/layouts/"],
+      "@atoms/*": ["src/components/atoms/*"],
+      "@hooks/*": ["src/components/hooks/*"],
+      "@layouts/*": ["src/components/layouts/*"],
       "@molecules/*": ["src/components/molecules/*"],
-      "@organisms": ["src/components/organisms/"],
+      "@organisms/*": ["src/components/organisms/*"],
       "@pages/*": ["src/pages/*"]
     }
   },
