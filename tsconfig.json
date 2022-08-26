@@ -17,9 +17,10 @@
     "baseUrl": ".",
     "paths": {
       "@atoms": ["src/components/atoms/"],
+      "@layouts": ["src/components/layouts/"],
       "@molecules/*": ["src/components/molecules/*"],
       "@organisms": ["src/components/organisms/"],
-      "@layouts": ["src/components/layouts/"]
+      "@pages/*": ["src/pages/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
