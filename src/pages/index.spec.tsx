@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Home from 'pages';
+import Home from './index';
 
 describe('Index Page', () => {
   it('should create index page', () => {

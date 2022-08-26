@@ -39,6 +39,8 @@ yarn.lock
 *.tsbuildinfo
 next-env.d.ts
 
+# VS Code
+.vscode
 
 # System Files
 Thumbs.db
