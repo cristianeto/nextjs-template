@@ -1,4 +1,7 @@
 {
+  "env": {
+    "jest": true
+  },
   "extends": ["next/core-web-vitals", "airbnb-base", "prettier"],
   "plugins": ["unused-imports", "prettier"],
   "rules": {
@@ -20,6 +23,18 @@
     ],
     "no-unused-vars": "error",
     "import/extensions": ["error", "never"],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.test.js",
+          "**/*.spec.js",
+          "**/*.test.tsx",
+          "**/*.spec.tsx",
+          "**/*.setup.js"
+        ]
+      }
+    ],
     "import/order": [
       "error",
       {
