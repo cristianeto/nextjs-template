@@ -19,6 +19,7 @@
       { "max": 1, "maxEOF": 1, "maxBOF": 1 }
     ],
     "no-unused-vars": "error",
+    "import/extensions": ["error", "never"],
     "import/order": [
       "error",
       {

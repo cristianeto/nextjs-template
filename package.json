@@ -1,6 +1,10 @@
 {
-  "name": "learning",
+  "name": "nextjs-template",
   "version": "0.1.0",
+  "author": {
+    "name": "Cristian Guamán",
+    "email": "cristian.guaman@icloud.com"
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
