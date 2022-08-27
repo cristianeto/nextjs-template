@@ -15,8 +15,8 @@ const customJestConfig = {
   testEnvironment: 'jest-environment-jsdom',
   moduleNameMapper: {
     '^@atoms/(.*)$': '<rootDir>/src/components/atoms/$1',
-    '^@hooks/(.*)$': '<rootDir>/src/hooks/$1',
-    '^@interfaces/(.*)$': '<rootDir>/src/interfaces/$1',
+    '^@hooks': '<rootDir>/src/hooks/index.ts',
+    '^@interfaces': '<rootDir>/src/interfaces/index.ts',
     '^@layouts/(.*)$': '<rootDir>/src/components/layouts/$1',
     '^@molecules/(.*)$': '<rootDir>/src/components/molecules/$1',
     '^@organisms/(.*)$': '<rootDir>/src/components/organisms/$1',
